@@ -58,11 +58,11 @@ const Page = () => {
               messages: messages.slice(-10),
               model: id,
               provider,
+              search: localStorage.getItem("CF_AI_SEARCH_ENABLED") === "true",
             },
           };
         },
       }),
-      experimental_throttle: 100,
       onFinish: ({ message, isError }) => {
         if (!isError) {
           db.message.add({
@@ -121,7 +121,7 @@ const Page = () => {
         chatListRef.current.scrollHeight -
           chatListRef.current.scrollTop -
           chatListRef.current.clientHeight <
-        200
+        250
       ) {
         scrollToBottom();
       }

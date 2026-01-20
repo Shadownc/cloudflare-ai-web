@@ -1,8 +1,8 @@
-# cloudflare-ai-web
-
-![readme.png](https://github.com/user-attachments/assets/e1c4e604-568d-4778-8780-29473619744f)
+# Cloudflare AI Web
 
 [中文](./README.md) | English
+
+![readme.png](https://github.com/user-attachments/assets/e1c4e604-568d-4778-8780-29473619744f)
 
 ## Deployment
 
@@ -47,8 +47,6 @@ docker run -d --name cloudflare-ai-web \
 | NEXT_PUBLIC_CF_AI_GATEWAY_PROVIDERS | Cloudflare AI Gateway Providers  |          |
 | GOOGLE_API_KEY                      | Google AI Studio Token           |          |
 
-Example: See the `.env.example` file
-
 #### CF_WORKERS_AI_TOKEN
 
 - Manage Account - Account API Tokens - Create Token - Create with Workers AI template
@@ -61,3 +59,6 @@ Supported providers:
 
 Multiple providers are separated by commas
 
+## Sponsor
+
+[Click Me](https://jaze.top/sponsor)

@@ -1,8 +1,8 @@
-# cloudflare-ai-web
-
-![readme.png](https://github.com/user-attachments/assets/e1c4e604-568d-4778-8780-29473619744f)
+# Cloudflare AI Web
 
 中文 ｜ [English](./README.en.md)
+
+![readme.png](https://github.com/user-attachments/assets/e1c4e604-568d-4778-8780-29473619744f)
 
 ## 部署
 
@@ -47,8 +47,6 @@ docker run -d --name cloudflare-ai-web \
 | NEXT_PUBLIC_CF_AI_GATEWAY_PROVIDERS | Cloudflare AI网关提供者      |    |
 | GOOGLE_API_KEY                      | Google AI Studio 令牌     |    |
 
-示例： 查看`.env.example`文件
-
 #### CF_WORKERS_AI_TOKEN
 
 - 管理账户 - 账户API令牌 - 创建令牌 - 使用Workers AI模板创建
@@ -60,3 +58,7 @@ docker run -d --name cloudflare-ai-web \
 - google
 
 多个提供者使用逗号分隔
+
+## 赞助
+
+[Click Me](https://jaze.top/sponsor)
